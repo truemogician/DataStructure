@@ -1,0 +1,19 @@
+set autoPrint
+create lnk
+initialize
+8
+1 9 2 6 0 8 1 7
+prepend 1926
+append 817
+removeAt 0
+removeOne 817
+insert 4 0
+removeAll 0
+query 1
+unify
+reverse
+sort
+split 3 newLnk
+activate newLnk
+print
+concat lnk

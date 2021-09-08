@@ -1,0 +1,24 @@
+Settings:
+autoPrint : print the active link list after any operation
+Commands:
+set [string propName] : set the property named propName true
+clear [string propName] : set the property named propName false
+create [string lnkName] : create a new link list named lnkName
+copy [string dstLnk] [string srcLnk] : copy the link list named srcLnk to the link list named dstLnk, which will be created if not exist
+drop [string lnkName] : delete the link list named lnkName
+rename [string lnkName] [string newName] : rename the link list named lnkName to newName
+activate [string lnkName] : set the link list named lnkName active
+list : list all available link lists
+initialize : initialize the active link list, need to input the length and data afterwards
+print : print the elements of the active link list
+length : print the length of the active link list
+prepend [int value] : prepend value to the head of the active link list
+append [int value] : append value to the tail of the active link list
+insert [int position] [int value] : insert value at position in the active link list
+removeAt [int position] : remove the element at position from the active link list
+removeOne [int value] : remove the first element equivalent to value from the active link list
+removeAll [int value] : remove all elements equivalent to value from the active link list
+query [int value] : return the position of the first element matching the given value in the active link list
+sort : sort the active link list
+reverse : reverse the active link list
+unify : remove all duplicate elements in the active link list

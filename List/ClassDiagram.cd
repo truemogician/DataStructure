@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="My::IContainerConversion&lt;TContainer&lt;&gt;, TValue&gt;">
+    <Position X="1" Y="10.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My::IContainerIterator&lt;TIterator, TValue, false&gt;">
+    <Position X="1" Y="3" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAEAAwAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My::IContainerIterator&lt;TIterator, TValue, Mutable&gt;">
+    <Position X="1" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAEAAwAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My::IMultiContainerOperation&lt;TContainer&lt;&gt;, TValue&gt;">
+    <Position X="1" Y="8.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My::LinkList&lt;T&gt;">
+    <Position X="5.25" Y="0.5" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="My::LinkList&lt;T&gt;::Node">
+        <TypeIdentifier>
+          <NewMemberFileName>List.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="My::LinkList&lt;T&gt;::ConstIterator">
+        <TypeIdentifier>
+          <NewMemberFileName>List.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="My::LinkList&lt;T&gt;::Iterator">
+        <TypeIdentifier>
+          <NewMemberFileName>List.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAACAABUAAAEAkgAAYAQEBEAAAAAgQkgIBAAAAA=</HashCode>
+      <FileName>List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My::List&lt;T&gt;">
+    <Position X="1" Y="5.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABEAAAEAAAAAAAAEAEAAAAAAAkAAAAAQAA=</HashCode>
+      <FileName>List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Comic Sans MS" Size="10" />
+</ClassDiagram>

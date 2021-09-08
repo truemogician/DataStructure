@@ -1,0 +1,11 @@
+// Hint files help the Visual Studio IDE interpret Visual C++ identifiers
+// such as names of functions and macros.
+// For more information see https://go.microsoft.com/fwlink/?linkid=865984
+#define CLASS_ALIAS(src, dst)
+#define CLASS_TEMPLATE_ALIAS(src, ...)
+#define NAMED_CLASS_TEMPLATE_ALIAS(src,dst,...)
+#define FUNCTION_ALIAS(src, dst)
+#define FUNCTION_TEMPLATE_ALIAS(src, ...)
+#define NAMED_FUNCTION_TEMPLATE_ALIAS(src,dst,...)
+#define VALUE_ALIAS(src,...)
+#define TYPE_ALIAS(src,...)
